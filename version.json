@@ -1,0 +1,14 @@
+{
+  "apk_version_code": 2,
+  "apk_version_name": "2.0.0",
+  "apk_size_mb": 62.3,
+  "apk_download_url": "https://github.com/TruckMatchAdmin/SnakeX-Releases/releases/latest/download/SnakeX-Release.apk",
+  "pck_version": 200,
+  "pck_version_name": "2.0.0",
+  "pck_size_mb": 11.22,
+  "pck_download_url": "https://github.com/TruckMatchAdmin/SnakeX-Releases/releases/latest/download/snakex_patch.pck",
+  "pck_sha256": "1b7663f14e924d61abb982d1ad9139c4bf583180c4fa0254418906dfb724fd53",
+  "min_apk_version_code": 2,
+  "release_notes": "Sortie officielle SnakeX 2.0 : refonte graphique moderne, 38 serpents 3D en accès libre, arène Next-Gen, clavier virtuel intégré et mises à jour automatiques OTA.",
+  "updated_at": "2026-11-23T22:28:28Z"
+}

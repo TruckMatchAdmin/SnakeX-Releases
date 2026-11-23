@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SnakeX — Téléchargement Officiel Android (Studio IziGab)</title>
+  <meta name="description" content="Téléchargez SnakeX gratuitement sur Android. 38 skins 3D en accès libre, arène néon 60 FPS et mises à jour automatiques intégrées." />
+  <link rel="icon" type="image/png" href="snakex_icon.png" />
+  <style>
+    :root {
+      --bg: #03060f;
+      --card: rgba(10, 19, 40, 0.86);
+      --green: #00ff88;
+      --cyan: #00e5ff;
+      --gold: #ffd43b;
+      --text: #f4f9ff;
+      --muted: #98b4d8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Roboto, system-ui, -apple-system, sans-serif;
+      background: radial-gradient(circle at 50% 0%, #0b2244 0%, #03060f 58%);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.55;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 28px 20px 64px;
+    }
+    .hero {
+      text-align: center;
+      padding: 28px 18px 34px;
+      background: var(--card);
+      border: 1.5px solid rgba(0, 229, 255, 0.35);
+      border-radius: 24px;
+      box-shadow: 0 20px 60px rgba(0, 229, 255, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+    }
+    .logo {
+      width: min(300px, 72vw);
+      height: auto;
+      filter: drop-shadow(0 0 24px rgba(0, 255, 136, 0.35));
+      margin-bottom: 14px;
+    }
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .badge {
+      background: rgba(0, 229, 255, 0.12);
+      border: 1px solid rgba(0, 229, 255, 0.45);
+      color: var(--cyan);
+      padding: 5px 14px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+    }
+    .badge.green {
+      background: rgba(0, 255, 136, 0.14);
+      border-color: rgba(0, 255, 136, 0.5);
+      color: var(--green);
+    }
+    h1 {
+      font-size: clamp(1.5rem, 4vw, 2.25rem);
+      font-weight: 900;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+    }
+    .subtitle {
+      color: var(--muted);
+      max-width: 620px;
+      margin: 0 auto 24px;
+      font-size: 1rem;
+    }
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: linear-gradient(180deg, #1aff95 0%, #00c868 100%);
+      color: #02140a;
+      text-decoration: none;
+      font-weight: 900;
+      font-size: 1.15rem;
+      padding: 18px 34px;
+      border-radius: 16px;
+      box-shadow: 0 8px 0 #007d40, 0 14px 36px rgba(0, 255, 136, 0.38);
+      transition: transform 0.14s ease, box-shadow 0.14s ease;
+      margin-bottom: 14px;
+    }
+    .download-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 0 #007d40, 0 18px 44px rgba(0, 255, 136, 0.52);
+    }
+    .download-btn:active {
+      transform: translateY(4px);
+      box-shadow: 0 3px 0 #007d40;
+    }
+    .meta-info {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-top: 8px;
+    }
+    .notes-box {
+      margin: 22px auto 0;
+      max-width: 640px;
+      background: rgba(3, 8, 20, 0.72);
+      border: 1px solid rgba(0, 255, 136, 0.30);
+      border-radius: 14px;
+      padding: 14px 18px;
+      text-align: left;
+    }
+    .notes-title {
+      color: var(--gold);
+      font-weight: 800;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .section-title {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--cyan);
+      margin: 40px 0 16px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+    .shot {
+      background: var(--card);
+      border: 1px solid rgba(0, 229, 255, 0.25);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    .shot img {
+      width: 100%;
+      display: block;
+    }
+    .shot span {
+      display: block;
+      padding: 10px 14px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--muted);
+      text-align: center;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 16px;
+    }
+    .step {
+      background: var(--card);
+      border: 1px solid rgba(0, 229, 255, 0.25);
+      border-radius: 16px;
+      padding: 20px;
+    }
+    .step-num {
+      display: inline-block;
+      width: 34px;
+      height: 34px;
+      line-height: 34px;
+      text-align: center;
+      border-radius: 50%;
+      background: rgba(0, 255, 136, 0.18);
+      border: 1.5px solid var(--green);
+      color: var(--green);
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+    .step h3 {
+      font-size: 1.05rem;
+      margin-bottom: 6px;
+    }
+    .step p {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    footer {
+      text-align: center;
+      color: #6b84a6;
+      font-size: 0.85rem;
+      margin-top: 48px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <img src="snakex_logo.png" alt="SnakeX Logo" class="logo" />
+      <div class="badge-row">
+        <span class="badge green" id="ver-badge">Version 2.0.0 Officielle</span>
+        <span class="badge">38 Skins 3D Gratuits</span>
+        <span class="badge">Mises à jour automatiques OTA</span>
+        <span class="badge">60 FPS Android</span>
+      </div>
+      <h1>L'Arène Arcade Néon Nouvelle Génération</h1>
+      <p class="subtitle">
+        Installez SnakeX une seule fois sur votre smartphone Android : toutes les prochaines améliorations, nouveaux skins et correctifs se téléchargent <strong>automatiquement</strong> dans le jeu !
+      </p>
+      <a id="download-link" class="download-btn" href="https://github.com/TruckMatchAdmin/SnakeX-Releases/releases/latest/download/SnakeX-Release.apk">
+        ⬇ TÉLÉCHARGER SNAKEX (ANDROID)
+      </a>
+      <div class="meta-info" id="meta-info">
+        APK Officiel Signé • Android 8.0+ • 100 % Gratuit • Sans publicité
+      </div>
+      <div class="notes-box">
+        <div class="notes-title">Nouveautés de cette version</div>
+        <div id="release-notes">Refonte graphique SnakeX 2.0 : 38 serpents 3D en accès libre, arène néon avec bonus cristallins, clavier virtuel intégré et mises à jour automatiques.</div>
+      </div>
+    </section>
+
+    <h2 class="section-title">Aperçu en Jeu</h2>
+    <div class="gallery">
+      <div class="shot">
+        <img src="snakex2_menu.png" alt="Menu Principal SnakeX 2.0" loading="lazy" />
+        <span>Menu Principal Moderne</span>
+      </div>
+      <div class="shot">
+        <img src="snakex2_all_snakes.png" alt="38 Serpents 3D SnakeX" loading="lazy" />
+        <span>38 Serpents 3D en Accès Libre</span>
+      </div>
+      <div class="shot">
+        <img src="snakex2_arena.png" alt="Arène Next-Gen SnakeX" loading="lazy" />
+        <span>Arène Néon 60 FPS & Bonus Cristallins</span>
+      </div>
+      <div class="shot">
+        <img src="snakex2_gallery_turbo.png" alt="Galerie et Aperçu Turbo" loading="lazy" />
+        <span>Galerie Interactive + Aperçu Turbo</span>
+      </div>
+    </div>
+
+    <h2 class="section-title">Installation Rapide en 3 Étapes</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Téléchargez l'APK officiel</h3>
+        <p>Appuyez sur le bouton vert ci-dessus depuis votre téléphone Android pour télécharger <code>SnakeX-Release.apk</code>.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Installez l'application</h3>
+        <p>Ouvrez le fichier téléchargé. Si Android demande l'autorisation pour votre navigateur, activez <em>« Autoriser cette source »</em> puis appuyez sur <strong>Installer</strong>.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Mises à jour 100 % automatiques</h3>
+        <p>À chaque nouvelle mise à jour de SnakeX, ouvrez simplement le jeu : il télécharge et applique les nouveautés tout seul !</p>
+      </div>
+    </div>
+
+    <footer>
+      © 2026 Studio IziGab — SnakeX Officiel • Package <code>com.izigab.snakex</code>
+    </footer>
+  </div>
+
+  <script>
+    fetch('version.json?t=' + Date.now())
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if (!data) return;
+        document.getElementById('ver-badge').textContent = 'Version ' + data.pck_version_name + ' Officielle';
+        if (data.apk_download_url) {
+          document.getElementById('download-link').href = data.apk_download_url;
+        }
+        if (data.release_notes) {
+          document.getElementById('release-notes').textContent = data.release_notes;
+        }
+        if (data.apk_size_mb) {
+          document.getElementById('meta-info').textContent =
+            'APK Officiel Signé v' + data.apk_version_name + ' (' + data.apk_size_mb + ' Mo) • Android 8.0+ • Mises à jour OTA automatiques';
+        }
+      })
+      .catch(() => {});
+  </script>
+</body>
+</html>
