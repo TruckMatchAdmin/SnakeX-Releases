@@ -3,12 +3,12 @@
   "apk_version_name": "2.0.0",
   "apk_size_mb": 62.3,
   "apk_download_url": "https://github.com/TruckMatchAdmin/SnakeX-Releases/releases/latest/download/SnakeX-Release.apk",
-  "pck_version": 201,
-  "pck_version_name": "2.0.1",
-  "pck_size_mb": 12.97,
+  "pck_version": 202,
+  "pck_version_name": "2.0.2",
+  "pck_size_mb": 12.98,
   "pck_download_url": "https://github.com/TruckMatchAdmin/SnakeX-Releases/releases/latest/download/snakex_patch.pck",
-  "pck_sha256": "32b0a190581637e5b500284b7745f64354ab291cc5434287bc79631b960c07a0",
+  "pck_sha256": "8e115d48e5b3c81a59389c3414b0e34f1c422e6bb255b4ecf337906db48f4415",
   "min_apk_version_code": 2,
-  "release_notes": "Refonte graphique moderne de l'écran d'accueil - Style Hit Mobile.",
-  "updated_at": "2026-11-24T20:38:59Z"
+  "release_notes": "Refonte visuelle moderne du Classement Élite (Podium 3D avec aperçu live des serpents, capsules trophées et colonne KILLS).",
+  "updated_at": "2026-11-24T20:44:38Z"
 }
