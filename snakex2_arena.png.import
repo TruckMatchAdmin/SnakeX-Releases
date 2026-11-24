@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2bqsvwp7d8l6"
-path="res://.godot/imported/snakex2_arena.png-58c63a83eb83eadb8c6b650d632f6498.ctex"
+path="res://.godot/imported/snakex2_arena.png-f8e660f08dbfa57b0cb98f12de3d750a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://site/snakex2_arena.png"
-dest_files=["res://.godot/imported/snakex2_arena.png-58c63a83eb83eadb8c6b650d632f6498.ctex"]
+source_file="res://build/releases_repo/snakex2_arena.png"
+dest_files=["res://.godot/imported/snakex2_arena.png-f8e660f08dbfa57b0cb98f12de3d750a.ctex"]
 
 [params]
 

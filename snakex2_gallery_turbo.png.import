@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwca8dfr3cnib"
-path="res://.godot/imported/snakex2_gallery_turbo.png-0807d89b81f30d83a9169a7c722bdfaf.ctex"
+path="res://.godot/imported/snakex2_gallery_turbo.png-422d624d64ab05ee5cf820903b410395.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://site/snakex2_gallery_turbo.png"
-dest_files=["res://.godot/imported/snakex2_gallery_turbo.png-0807d89b81f30d83a9169a7c722bdfaf.ctex"]
+source_file="res://build/releases_repo/snakex2_gallery_turbo.png"
+dest_files=["res://.godot/imported/snakex2_gallery_turbo.png-422d624d64ab05ee5cf820903b410395.ctex"]
 
 [params]
 
